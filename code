@@ -1227,7 +1227,7 @@ iframe.tumblr_audio_player {
 .side-panel {
     width: 400px;
     height: 100%;
-    background-color: {color:accent};
+    background-color: rgba({RGBcolor:accent}, 0.85);
     position: fixed;
     padding: 20px;
     box-sizing: border-box;
@@ -1238,6 +1238,7 @@ iframe.tumblr_audio_player {
 
 .active {
     left: 75px;
+    transition: 1.2s;
 }
 
 .panel-title {
