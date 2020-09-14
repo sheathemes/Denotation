@@ -494,14 +494,14 @@ a:hover{cursor:url("https://i.imgur.com/IepP2.jpg"), auto !important;}
 .wrap {
     position: relative;
     width: calc({select:post size}px + 470px);
-    margin: auto;
+    margin: auto 420px;
     {block:PermalinkPage}
     width: calc(540px + 470px);
     {/block:PermalinkPage}
 }
  
 #content {
-    margin: 60px 0 10px 320px;
+    margin: 60px 0 10px 300px;
     padding-top: 35px;
     width: {select:Post Size}px;
     {block:PermalinkPage}
@@ -1233,7 +1233,6 @@ iframe.tumblr_audio_player {
     box-sizing: border-box;
     transition: .9s;
     left: -400px;
-    border-left: 5px solid {color:posts};
 }
 
 .active {
