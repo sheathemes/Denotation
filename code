@@ -1821,7 +1821,7 @@ width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
 <div class="asker-text">asked a question</div>
 </div>
 </div>
-<div class="question">{Question}&nbsp;</div>
+<div class="question">{Question}</div>
 </div>
  
 {block:Answerer}
